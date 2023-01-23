@@ -1,0 +1,73 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  height: 1000px;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+}
+#main {
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+  text-align: center;
+  margin: 100px auto;
+  background-color: white;
+}
+.details {
+  display: flex;
+  margin: 5px;
+}
+img {
+  height: 50px;
+}
+input {
+  border-radius: 20px;
+  padding: 10px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.nav {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  align-items: center;
+}
+#main1 {
+  height: 730px;
+}
+
+.light {
+  color: black;
+  background-color: white;
+}
+.dark {
+  color: white;
+  background-color: black;
+}
+.light .card {
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+}
+.dark .card {
+  color: white;
+  background-color: black;
+  border: 1px solid white;
+}
+.card {
+  height: 300px;
+  margin-top: 0px;
+}
+button {
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  height: 25px;
+  width: 50px;
+  cursor: pointer;
+}
